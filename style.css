@@ -1,0 +1,177 @@
+*{
+    margin:0;
+     border:border-box;  
+    font-family: Arial;
+
+}
+
+.naive{
+    height: 60px;
+    
+    background-color: #0f1111;
+     color:white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.naivelogo{
+    height: 50px;
+    width: 100px;
+   
+} 
+
+.logo{
+    background-size: 100%;
+    background-image: url("amazon_logo.png");
+    align-items:center;
+    height: 50px;
+    width: 100%;
+  
+}
+
+.border{
+ border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+/* 2 box */
+
+.loc{
+  align-items: center;
+}
+.loc-logo{
+    display:flex;
+    align-items: center;
+}
+
+.del{
+    margin-left:15px;
+    font-size:0.85rem;
+    font-weight: lighter;
+}
+
+.deloc{
+    font-size:1rem;
+    margin-left:3px;
+    font-weight: bold;
+}
+
+/* box 3 */
+.bar{
+    display: flex;
+    height:40px;
+    border-radius: 4px;
+    width:620px;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+
+.bar:hover{
+    border:2px solid #febd68;
+}
+
+.sel{
+    width: 50px;
+    height:40px;
+    border: none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    text-align:center;
+}
+.mag{
+    width:45px;
+    background-color: #febd68;
+    display: flex;
+    justify-content:center;
+     align-items: center; 
+     border-radius: 4px;
+} 
+ .in{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+} 
+/* box 4 */
+.signp{
+    font-size:0.85rem;
+}
+.sel1{
+    background-color: #0f1111;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+/* box 5 */
+.ret{
+    font-size: 0.85rem;
+}
+.or{
+    font-weight: bold;
+    font-size:0.95rem;
+}
+/* box 6 */
+.navcart{
+    display:flex;
+    align-items: center;
+}
+.navcart i{
+    font-size:30px ;
+}
+.ca{
+    font-size: 0.85rem;
+}
+
+/* header 2 */
+.header2{
+    color:aliceblue;
+    background-color:#222f3d;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.All{
+    
+    justify-content: center;
+}
+
+.All:hover{
+    border:2px solid white;
+}
+
+
+.opt p{
+    display: inline;
+    margin-right:4px;
+    font-size: 0.85rem;
+}
+.opt{
+    width:70%;
+}
+.shop{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/* hero */
+.hero{
+    height:600px;
+    background-size:100%;
+    background-image: url("hero_image.jpg");
+    
+}
+.info{
+    display:flex;
+    background-color: white;
+     align-items: center;
+     height:50px;
+}
+.info_{
+    font-size:0.9rem;
+    color:black;
+    
+}
+
